@@ -10,13 +10,28 @@ ul,li{
     list-style: none;
 }
 
+
 body{
     font-family: 'Fredoka';
     color: #000;
     background: #17001f;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Fredoka';
+    font-size: 2rem;
+}
+
 
 h1{
     font-weight: 400;
